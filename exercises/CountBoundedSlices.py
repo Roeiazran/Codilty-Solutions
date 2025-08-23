@@ -1,0 +1,3 @@
+
+
+def solution(A, K):
