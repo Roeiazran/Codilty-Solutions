@@ -1,16 +1,5 @@
 
 
-# walk: A - 20, S - 30
-# scooter: A - 5, S - 40
-
-# ASAASS 
-# W = [20, 30, 20, 20, 30, 30] 
-# S = [5, 40, 5, 5, 40, 40] 
-
-# W - S = [15, -10, 15, 15, 15, -10, -10]
-# PS = [15, 5, 20, 35, 50, 30, 30]
-# cost = [30, 15, 25, 10, -5, -20 , 0]
-# cost(W-S)_i->n = PS[n - 1] - PS[i - 1] < 0 -> walk the rest of the way, 
 def solution(R):
 
     n = len(R)
@@ -55,8 +44,6 @@ def solution(R):
         ts += W[i]
 
     return ts
-
-print(solution("SSSSAAA"))
 
 def cost(scooter, sand):
     costs = [[20, 30], [5, 40]]
