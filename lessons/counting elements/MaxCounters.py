@@ -5,14 +5,14 @@ def solution(N, A):
     counters = [0] * N
     
     for i in range(len(A)):
-        indx = A[i] - 1
+        index = A[i] - 1
 
         if A[i] == N + 1:
             max_val = curr_max_value
         
         else: 
-            counters[indx] = max(counters[indx], max_val) + 1
-            curr_max_value = max(curr_max_value, counters[indx])
+            counters[index] = max(counters[index], max_val) + 1
+            curr_max_value = max(curr_max_value, counters[index])
     
     for i in range(N):
         if counters[i] < max_val:
