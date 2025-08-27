@@ -1,6 +1,5 @@
 """
-    Problem: Given an array A consisting of N integers and an integer K, returns the array A rotated K times.
-    Idea: Create helper array.
+    Idea: Use helper array.
     Time Complexity: O(n)
     Space Complexity: O(n)
 """

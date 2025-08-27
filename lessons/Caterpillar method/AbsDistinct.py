@@ -1,8 +1,4 @@
 """
-    Problem description: A non-empty array A consisting of N numbers is given.
-    The array is sorted in non-decreasing order.
-    The absolute distinct count of this array is the number of distinct absolute values among the elements of the array.
-    Problem: Given a non-empty array A consisting of N numbers, returns absolute distinct count of array A.
     Idea: Sort the array by absolute values and traverse it using the caterpillar method.
     Time Complexity: O(n) 
 """
